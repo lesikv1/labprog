@@ -4,12 +4,11 @@
 * varik 5
 * Created on 21 April 2018 y., 14:41
 */
-// #include "stdafx.h"
+
 #include <fstream>
 #include <iostream>
 #include <string>
 #include <locale>
-// #include <stdio.h>
 
 struct car {
 		char mark[20];
@@ -154,8 +153,5 @@ int main() {
 // for run code
 // need install compilator g++
 // and run next step
-// $ g++ index.cpp
+// $ g++ 3.1.cpp
 // $ ./a.out
-
-// read and write in file
-// http://www.cyberforum.ru/cpp-beginners/thread63440.html
