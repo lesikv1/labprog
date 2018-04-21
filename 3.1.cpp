@@ -121,6 +121,22 @@ void functionSearth() {
   file.close();
 }
 
+void binaryFile() {
+  ifstream infile;
+  infile.open("db.txt",ios::binary|ios::in);
+
+  ofstream outfile;
+  outfile.open("bin.dat",ios::binary|ios::out);
+
+  int buffer[2];
+  while(infile.read((char *)&buffer,sizeof(buffer))) {
+      outfile.write((char *)&buffer,sizeof(buffer));
+      cout << infile;
+  }
+
+  infile.close();
+  outfile.close();
+}
 
 int main() {
   setlocale(LC_ALL,"rus");
@@ -129,6 +145,7 @@ int main() {
   cout << "(2) select read from database" << endl;
   cout << "(3) select add to database" << endl;
   cout << "(4) search to database" << endl;
+  cout << "(5) read/write binary file" << endl;
   cin >> a;
   int lengthUser = 1;
   switch(a) {
@@ -144,6 +161,9 @@ int main() {
       break;
     case 4:
       functionSearth();
+      break;
+    case 5:
+      binaryFile();
       break;
     default:
       cout << "wrong";

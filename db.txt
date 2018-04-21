@@ -1,0 +1,6 @@
+lada niva 23 4 moskva-piter
+mazda x3 53543 2 donetsk-makeevka
+porshe new 5 2 shahtersk-torez
+bmv x1 3535 4 parish-london
+luks dsd 23 4 moskva-tyla
+bugati verion 7 2 monako-montekarlo
