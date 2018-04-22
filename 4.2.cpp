@@ -1,3 +1,10 @@
+/*
+* Author: Onufriev Alexey
+* laba 4.2
+* to template
+* Created on 23 April 2018 y., 00:47
+*/
+
 #include <fstream>
 #include <iostream>
 #include <string>
