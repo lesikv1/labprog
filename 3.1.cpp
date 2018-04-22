@@ -2,6 +2,7 @@
 /*
 * Author: Onufriev Alexey
 * varik 5
+* laba 3.1
 * Created on 21 April 2018 y., 14:41
 */
 
@@ -17,7 +18,6 @@ struct car {
     int numberPlace;
     char startRoad[20];
     char finishRoad[20];
-
 	};
 struct car avt[10];
  
